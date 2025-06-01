@@ -25,7 +25,7 @@ export default function Example() {
     try {
       
       const res = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCJgZclZBzlAQliZwyTiiz2IO8D7v-eXvc",
+        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR API KEY",
         method: "post",
         headers: {
         "Content-Type": "application/json",
