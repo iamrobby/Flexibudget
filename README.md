@@ -96,9 +96,6 @@ flexibudget/
 
 ---
 
-## 📄 License
-
-MIT License. Feel free to use and contribute.
 
 ---
 
