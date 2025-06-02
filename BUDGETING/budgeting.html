@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Budget Planner</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>Team Kuch Vii</h1>
+      <h2>Smart Budget Calculator</h2>
+
+      <label for="amount">Monthly Amount (₹):</label>
+      <input type="number" id="amount" placeholder="Enter your income or budget" />
+
+      <label for="category">Category:</label>
+      <select id="category">
+        <option value="student">Student</option>
+        <option value="salaried">Salaried</option>
+        <option value="retired">Retired</option>
+      </select>
+
+      <button onclick="submitBudget()">Generate Budget Plan</button>
+
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
