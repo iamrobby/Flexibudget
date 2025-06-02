@@ -1,0 +1,90 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #52057b, #69007e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Card Box */
+.box {
+  background-color: #fff9c4;
+  padding: 30px 40px;
+  border-radius: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #e91e63;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #3085fc;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Form Controls */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+/* Button */
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* Result Box */
+#result {
+  margin-top: 25px;
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 12px;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+}
