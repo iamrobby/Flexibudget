@@ -29,7 +29,7 @@ export default function Example() {
         method: "post",
         headers: {
         "Content-Type": "application/json",
-        // Authorization: `Bearer AIzaSyA26T_ecG0qKChg1l2BzuKDFdYb8DT6UYI`, //replace key imp
+      
       },
         data: {
           contents: [
