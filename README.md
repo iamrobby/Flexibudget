@@ -33,6 +33,8 @@ Install the required dependencies using the following commands:
 ```bash
 # Install project dependencies
 npm install
+npm install clsx axios
+npm install @headlessui/react
 
 # Install React (if not already installed)
 npm install react react-dom
