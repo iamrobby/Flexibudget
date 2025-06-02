@@ -20,7 +20,7 @@ FlexiBudget is a smart financial assistant tool that combines the power of **Gem
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Badge"/>
 </p>
-* **AI:** Gemini AI (via API or SDK integration)
+* AI: Gemini AI (via API or SDK integration)
 
 ---
 
